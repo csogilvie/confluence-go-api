@@ -40,6 +40,7 @@ type Ancestor struct {
 // Body holds the storage information
 type Body struct {
 	Storage Storage `json:"storage"`
+	View Storage `json:"storage"`
 }
 
 // Storage defines the storage information
